@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="js/settings.js"></script>
+    <script src="js/docuim.js"></script>
+    <script src="js/grid.js"></script>
+    <script src="js/info.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/main.js"></script>
+    <meta charset="UTF-8">
+    <title>Docu.im</title>
+</head>
+<body onload="Main.bodyLoadHandler();">
+    <input id="username" value="" />
+    <input type="password" id="password" value="" />
+    <div class="scene" id="grid_scene">
+        <div id="grid_page_left">&lt;</div>
+        <div id="grid_item_container"></div>
+        <div id="grid_page_right">&gt;</div>
+    </div>
+    <div class="scene" id="info_scene">
+        <div id="info_scene_left">left</div>
+        <div id="info_scene_right">
+            <ul id="info_scene_videos_list"></ul>
+        </div>
+    </div>
+    <div id="player_wrapper"></div>
+</body>
+</html>
